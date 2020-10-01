@@ -1,0 +1,40 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+/*chalet fonts*/
+@font-face {
+    font-family: 'ChaletLondon60';
+    src: url('../bridge/fonts/chaletlondon60-webfont.eot');
+    src: url('../bridge/fonts/chaletlondon60-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bridge/fonts/chaletlondon60-webfont.woff') format('woff'),
+         url('../bridge/fonts/chaletlondon60-webfont.ttf') format('truetype'),
+         url('../bridge/fonts/chaletlondon60-webfont.svg#chaletlondonnineteensixty') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ChaletNY60';
+    src: url('../bridge/fonts/chaletnewyorknineteensixty-webfont.eot');
+    src: url('../bridge/fonts/chaletnewyorknineteensixty-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../bridge/fonts/chaletnewyorknineteensixty-webfont.woff') format('woff'),
+         url('../bridge/fonts/chaletnewyorknineteensixty-webfont.ttf') format('truetype'),
+         url('../bridge/fonts/chaletnewyorknineteensixty-webfont.svg#chaletmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Fixes font bugs in Webkit */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'ChaletNY60';
+        src: url('../bridge/fonts/chaletnewyorknineteensixty-webfont.svg#chaletmedium') format('svg');
+    }
+}
